@@ -38,6 +38,15 @@
         
         
   </script>
+
+  <script>
+    function redirect() {
+        // Replace 'YOUR_GOOGLE_DRIVE_LINK' with your actual Google Drive link
+        var googleDriveLink = 'https://drive.google.com/drive/folders/1bIQHaNf6BJ4jMceTcpcnyqYFzYxxnvWj';
+        window.open(googleDriveLink, '_blank');
+    }
+</script>
+
   </head>
   <body>
     <div id="Video">
@@ -141,7 +150,7 @@
           <p>🛏️ Accomodation will be Provided</p>
           <p>🎁 Additional prizes awarded based on performance, excluding top 3.</p>
            <p>📍 Both Abstract and Problems are given. (Click allow for multiple downloads)</p>
-            <button type="button" class="button1" onclick="downloadFiles()">
+            <button type="button" class="button1" onclick="redirect()">
               <span class="button__text">Download</span>
               <span class="button__icon"
                 ><svg
